@@ -1,0 +1,3 @@
+@reboot sleep 3 && mkdir -p /home/(user)/logs
+@reboot sleep 5 && /home/(user)/shutdown_button.sh &
+@reboot sleep 5 && /home/(user)/start_m8ball.sh

@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pillow = "*"
+adafruit-gpio = "*"
+adafruit-ssd1306 = "*"
+psutil = "*"
+spidey = "*"
+adafruit-circuitpython-adxl34x = "*"
+smbus2 = "*"
+adafruit-circuitpython-bitbangio = "*"
+adafruit-blinka = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.2"
