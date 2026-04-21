@@ -49,6 +49,10 @@ Detailed documentation can be found in [docs folder](./docs/).
 ## Power Notes
 > ⚠️ Always use the soft shutdown button before turning off the hard power switch to avoid SD card corruption.
 
+## Execute Permission Notes
+> ⚠️ Before running the scripts (start_m8ball.sh and shutdown_button.sh) for the first time, make sure it has execute permissions:
+- `chmod +x /home/oreo-pi/start_m8ball.sh` and `chmod +x /home/oreo-pi/shutdown_button.sh`
+
 ---
 
 ![Alt text](./img/IMG_0549.png)
