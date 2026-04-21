@@ -1,12 +1,12 @@
 import time
 import board
-import busio
+import adafruit_bitbangio as bitbangio
 import adafruit_adxl34x
 import math
 
 
 # I2C setup
-i2c = busio.I2C(board.SCL, board.SDA)
+i2c = bitbangio.I2C(scl=board.D27, sda=board.D17)
 accelerometer = adafruit_adxl34x.ADXL345(i2c)
 
 # Enable motion detection with a threshold of 18 (units: approx. 62.5 mg per LSB)
