@@ -52,7 +52,7 @@ Detailed documentation can be found in [docs folder](./docs/).
 ## Execute Permission Notes
 > ⚠️ Before running the scripts (setup_venv.sh, start_m8ball.sh, and shutdown_button.sh) for the first time, make sure it has execute permissions:
 ```
-chmod +x /home/<user>/rpi-magic8ball/src/start_m8ball.sh`
+chmod +x /home/<user>/rpi-magic8ball/src/start_m8ball.sh
 ```
 ```
 chmod +x /home/<user>/rpi-magic8ball/src/shutdown_button.sh
