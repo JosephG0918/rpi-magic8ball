@@ -50,8 +50,21 @@ Detailed documentation can be found in [docs folder](./docs/).
 > ⚠️ Always use the soft shutdown button before turning off the hard power switch to avoid SD card corruption.
 
 ## Execute Permission Notes
-> ⚠️ Before running the scripts (start_m8ball.sh and shutdown_button.sh) for the first time, make sure it has execute permissions:
-- `chmod +x /home/oreo-pi/start_m8ball.sh` and `chmod +x /home/oreo-pi/shutdown_button.sh`
+> ⚠️ Before running the scripts (setup_venv.sh, start_m8ball.sh, and shutdown_button.sh) for the first time, make sure it has execute permissions:
+```
+chmod +x /home/<user>/rpi-magic8ball/src/start_m8ball.sh`
+```
+```
+chmod +x /home/<user>/rpi-magic8ball/src/shutdown_button.sh
+```
+```
+chmod +x /home/<user>/rpi-magic8ball/src/python_dir/m8ball_proj/setup_venv.sh
+```
+
+> ⚠️ Also, can't run those scripts without setting up a venv (virtual environment) and dependencies:
+```
+./setup_venv.sh
+```
 
 ---
 
