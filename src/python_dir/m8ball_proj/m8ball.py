@@ -17,7 +17,7 @@ answers = [
 ]
 
 """ Accessing lib_oled96 library  """
-sys.path.append('/home/(user)/python_dir/m8ball_proj/lib_oled96')
+sys.path.append('/home/<user>/python_dir/m8ball_proj/lib_oled96')
 from lib_oled96 import ssd1306
 from smbus2 import SMBus
 

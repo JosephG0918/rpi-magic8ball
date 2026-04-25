@@ -6,7 +6,7 @@ from PIL import ImageFont, ImageDraw, Image
 # font = ImageFont.load_default()
 
 import sys
-sys.path.append('/home/(user)/python_dir/m8ball_proj/lib_oled96')
+sys.path.append('/home/<user>/python_dir/m8ball_proj/lib_oled96')
 
 from lib_oled96 import ssd1306
 
